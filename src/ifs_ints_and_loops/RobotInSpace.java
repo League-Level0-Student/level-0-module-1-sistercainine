@@ -45,9 +45,11 @@ else if (keyPressed==40) {
 if (keyPressed==37) {
 rob.setAngle(-90);
 	rob.microMove(1);
-
+}
 		// 6. If right is pressed, move the Robot right.
-
+if (keyPressed==39) {
+	rob.setAngle(90);
+	rob.microMove(1);
 		// 7. Run your program and move the Robot to RD-2D for a surprise!
 	}
 	}
